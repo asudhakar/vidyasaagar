@@ -67,7 +67,7 @@
 		return mysqli_query($link, $query);
 	}
 	function db_connect_local(){
-		$connection = mysqli_connect('localhost', "root", "palaniM@67", "jayam");
+		$connection = mysqli_connect('localhost', "root", "Manithan10100?", "vidyasaagar");
 			if (!$connection) {
 			    die("Connection failed: " . mysqli_connect_error());
 			    exit();
