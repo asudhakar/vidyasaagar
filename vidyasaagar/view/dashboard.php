@@ -30,8 +30,8 @@
 
 <div class="header clearfix">
         <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="../index.php">Home</a></li>
+          <ul class="nav nav-pills pull-right            <li role="presentation" cla">
+ss="active"><a href="../index.php">Home</a></li>
             <li role="presentation"><a href="http://vefetch.com/">About</a></li>
             <li role="presentation"><a href="login.php?action=logout">Logout</a></li>
           </ul>
@@ -42,7 +42,7 @@
 
 <h1>Select Contacts</h1>
 
-<form method="get" action="message_process.php">
+<form method="post" action="message_process.php">
 
 <input type="hidden" name="path" value="<?php echo $file_path; ?>">
 <label><input type="checkbox" id="checkAll">Check All</label>
