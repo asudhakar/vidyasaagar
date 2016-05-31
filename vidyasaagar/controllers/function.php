@@ -25,7 +25,7 @@
 		$userDetails['id'] = '1';
 	 	$userDetails['username'] = 'vidyasaagar';
 	 	$userDetails['email'] = 'vidyasaagar@gmail.com';
-	 	$userDetails['password'] = 'jayam1234';
+	 	$userDetails['password'] = 'vidyasaagar';
 	 	$userDetails['admin'] = '1';
 		$_SESSION["userDetails"] = base64_encode(serialize($userDetails));
 		if(isset($_SESSION['userDetails'])){
