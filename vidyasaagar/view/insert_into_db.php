@@ -23,7 +23,7 @@ foreach ($name_and_numbers as $key => $number) {
 header('Location: ../index.php');
 
 	function db_connect(){
-		$connection = mysqli_connect('192.168.1.201', "vidyasaagar", "vidya1234", "vidyasaagar", 3306);
+		$connection = mysqli_connect('vefetch.ddns.net', "vidyasaagar", "vidya1234", "vidyasaagar", 3306);
 		if (!$connection) {
 		    die("Connection failed: " . mysqli_connect_error());
 		    exit();
